@@ -804,7 +804,8 @@ These formatting rules concern the use of indentation to format code.
 
   ```csharp
   //Right
-  switch(c) {
+  switch(c) 
+  {
       case Color.Red:
           Console.WriteLine("The color is red");
           break;
@@ -836,7 +837,8 @@ These formatting rules concern the use of indentation to format code.
 
   ```csharp
   //Right
-  switch(c) {
+  switch(c) 
+  {
       case Color.Red:
           Console.WriteLine("The color is red");
           break;
@@ -872,7 +874,8 @@ These formatting rules concern the use of indentation to format code.
   {
       private string MyMethod(...)
       {
-          if (...) {
+          if (...) 
+	  {
               goto error;
           }
           error:
